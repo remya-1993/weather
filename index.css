@@ -97,3 +97,8 @@
     display: none;
     
 }
+@media screen and (max-width: 600px) {
+    .card{
+        justify-content: center;
+    }
+}
