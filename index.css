@@ -97,8 +97,36 @@
     display: none;
     
 }
-@media screen and (max-width: 600px) {
-    .card{
-        justify-content: center;
+@media (min-width: 768px) {
+    .card {
+        max-width: 60%;
+        padding: 30px;
+    }
+
+    .search input {
+        font-size: 1.2rem;
+        height: 50px;
+    }
+
+    .weather h1 {
+        font-size: 3rem;
+    }
+
+    .weather h2 {
+        font-size: 2.5rem;
+    }
+
+    .details {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .factors img {
+        width: 40px;
+    }
+
+    .humidity, .wind {
+        font-size: 1.2rem;
     }
 }
