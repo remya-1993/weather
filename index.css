@@ -104,5 +104,9 @@
     flex-direction: column;
     justify-content: center;
    }
+   .search button{
+    width: 35px;
+    height: 35px;
+   }
     
 } 
